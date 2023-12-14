@@ -111,3 +111,13 @@ html {
   font-family: 'Lighthouse';
   src: url('fonts/Lighthaus.otf');
 }
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'UncialAntiqua';
+  src: url('fonts/UncialAntiqua-Regular.ttf');
+}
