@@ -8,7 +8,8 @@
 * {
 	padding: 0px;
 	margin: 0px;
-	border: none;
+	/* border: none; */
+  border: 1px solid salmon;
 }
 
 *,
@@ -97,9 +98,9 @@ legend {
 html {
   max-width: 1440px;
   margin: 0 auto;
-  border: 1px solid salmon;
   color: var(--ct-landing-text);
   font-family: 'Candara';
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -120,4 +121,13 @@ html {
 @font-face {
   font-family: 'UncialAntiqua';
   src: url('fonts/UncialAntiqua-Regular.ttf');
+}
+
+.wrap {
+  margin: 0 auto;
+  max-width: 97.22%;
+}
+
+header li {
+  display: inline-block;
 }
