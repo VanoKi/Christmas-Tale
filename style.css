@@ -1,8 +1,8 @@
 :root {
-  --ct-landing-text: #304400
-  --ct-landing-bg: #FDFBF7
-  --ct-landing-footer-font: #4E6D03
-  --ct-landing-red: #AD2D24
+  --ct-landing-text: #304400;
+  --ct-landing-bg: #FDFBF7;
+  --ct-landing-footer-font: #4E6D03;
+  --ct-landing-red: #AD2D24;
 }
 
 * {
@@ -119,7 +119,7 @@ html {
 }
 
 @font-face {
-  font-family: 'UncialAntiqua';
+  font-family: 'Uncial Antiqua';
   src: url('fonts/UncialAntiqua-Regular.ttf');
 }
 
@@ -130,5 +130,45 @@ html {
 
 header li {
   display: inline-block;
+}
+
+.header__bottom-container {
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+}
+
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li:nth-child(2) {
+  margin-left: auto;
+}
+
+header nav ul li:last-child {
+  margin-left: 7.4%;
+}
+
+.header__upper-container {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  max-width: 267px;
+}
+
+.logo {
+  font-family: 'Unical Antiqua';
+  font-size: 45px;
+  font-weight: normal;
+  color: var(--ct-landing-red);
+}
+
+.header_wrap {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
