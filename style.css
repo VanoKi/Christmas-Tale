@@ -232,7 +232,7 @@ header nav ul li:last-child {
   background: var(--ct-landing-red);
   color: var(--ct-landing-bg);
   border-radius: 25px;
-  padding: 23px 95px;
+  padding: 23px 104px;
   font-family: 'Inter';
   font-size: 28px;
   font-style: normal;
@@ -252,4 +252,41 @@ header nav ul li:last-child {
   padding-top: 55px;
   padding-bottom: 50px;
   gap: 31px;
+}
+
+/* info */
+
+.info {
+  padding-top: 70px;
+}
+
+.section_title {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.three-column {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 45px 10px 66px 10px;
+}
+
+.card{
+  color: var(--ct-landing-text);
+  text-align: center;
+  font-family: 'Candara';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  /* text-decoration-line: underline; */
+}
+
+.wrap__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
