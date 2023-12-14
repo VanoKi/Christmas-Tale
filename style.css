@@ -9,7 +9,7 @@
 	padding: 0px;
 	margin: 0px;
 	/* border: none; */
-  border: 1px solid salmon;
+  /* border: 1px solid salmon; */
 }
 
 *,
@@ -19,6 +19,10 @@
 }
 
 /* Links */
+
+/* a {
+  color: inherit;
+} */
 
 a, a:link, a:visited  {
     text-decoration: none;
@@ -128,6 +132,16 @@ html {
   max-width: 97.22%;
 }
 
+header {
+  background: linear-gradient(270deg,
+   rgba(255, 255, 255, 0.00) -19.35%,
+    rgba(255, 255, 255, 0.70) 49.95%,
+     rgba(255, 255, 255, 0.00) 131.52%,
+      rgba(255, 255, 255, 0.00) 131.52%);
+  backdrop-filter: blur(2.5px);
+  background-image: url(assets/bg/bg.png);
+}
+
 header li {
   display: inline-block;
 }
@@ -141,6 +155,9 @@ header li {
 .header_menu {
   display: flex;
   justify-content: space-between;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: 'Roboto';
 }
 
 header nav ul li:nth-child(2) {
@@ -172,3 +189,67 @@ header nav ul li:last-child {
   align-items: center;
 }
 
+/* main */
+
+/* enjoy */
+
+.enjoy {
+  background-image: url(assets/bg/bg.png);
+  background-position: -10%;
+  padding-top: 385px;
+  padding-right: 740px;
+  padding-bottom: 50px;
+}
+
+.window {
+  border-radius: 0px 25px 25px 0px;
+  background: rgba(253, 251, 247, 0.80);
+  backdrop-filter: blur(12.5px);
+}
+
+.tagline {
+  color: var(--ct-landing-text);
+  font-family: 'Lighthaus';
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px; /* 130% */
+  letter-spacing: 1px;
+}
+
+.describe {
+  color: var(--ct-landing-text);
+  font-family: 'Candara';
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  width: 350px;
+  height: 80px;
+  background: var(--ct-landing-red);
+  color: var(--ct-landing-bg);
+  border-radius: 25px;
+  padding: 23px 95px;
+  font-family: 'Inter';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #932F14;
+}
+
+.window_enjpoy {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-top: 55px;
+  padding-bottom: 50px;
+  gap: 31px;
+}
