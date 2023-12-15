@@ -382,6 +382,10 @@ header a:hover {
   gap: 42px;
 }
 
+.contacts span {
+  text-decoration: underline;
+}
+
 /* footer */
 
 .footer {
