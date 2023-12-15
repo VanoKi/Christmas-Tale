@@ -239,6 +239,7 @@ header nav ul li:last-child {
   font-weight: 500;
   line-height: normal;
   cursor: pointer;
+  transition: .5s;
 }
 
 .btn:hover {
