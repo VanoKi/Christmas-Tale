@@ -291,3 +291,15 @@ header nav ul li:last-child {
   flex-direction: column;
   align-items: center;
 }
+
+.wrap_slider {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 80px;
+  padding-bottom: 26px;
+}
+
+.wrap_slider img {
+  border-radius: 25px;
+}
