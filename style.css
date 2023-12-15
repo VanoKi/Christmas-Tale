@@ -131,14 +131,14 @@ html {
 
 .wrap {
   margin: 0 auto;
-  max-width: 97.22%;
+  max-width: 1400px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 header {
-  width: 95.22%;
+  width: 1440px;
   margin: 0 auto;
   position: absolute;
   z-index: 1;
@@ -366,12 +366,35 @@ header a:hover {
   padding-left: 31px;
 }
 
+
+/* contacts */
+
+.contacts {
+}
+
+.contacts .card {
+  text-align: left;
+}
+
+.contacts_svg {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+}
+
 /* footer */
 
 .footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
+  color: #4E6D03;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .footer ul {
@@ -391,3 +414,4 @@ header a:hover {
 .footer svg:hover path{
   fill: var(--ct-landing-red);
 }
+
