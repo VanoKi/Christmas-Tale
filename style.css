@@ -369,6 +369,10 @@ header a:hover {
 
 /* contacts */
 
+#contacts {
+  padding-top: 70px;
+}
+
 .contacts {
 }
 
@@ -388,6 +392,15 @@ header a:hover {
 
 .contacts svg:hover path{
   fill: var(--ct-landing-red);
+}
+
+.contacts a:hover {
+  color: var(--ct-landing-red);
+}
+
+.map_wrap {
+  max-width: 1400px;
+  max-height: 623px;
 }
 
 /* footer */
