@@ -26,6 +26,7 @@
 } */
 
 a, a:link, a:visited  {
+    color: inherit;
     text-decoration: none;
 }
 
@@ -131,16 +132,19 @@ html {
 .wrap {
   margin: 0 auto;
   max-width: 97.22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
-  background: linear-gradient(270deg,
+  /* background: linear-gradient(270deg,
    rgba(255, 255, 255, 0.00) -19.35%,
     rgba(255, 255, 255, 0.70) 49.95%,
      rgba(255, 255, 255, 0.00) 131.52%,
-      rgba(255, 255, 255, 0.00) 131.52%);
-  backdrop-filter: blur(2.5px);
-  background-image: url(assets/bg/bg.png);
+      rgba(255, 255, 255, 0.00) 131.52%); */
+  /* backdrop-filter: blur(2.5px); */
+  /* background-image: url(assets/bg/bg.png); */
 }
 
 header li {
@@ -203,7 +207,6 @@ header nav ul li:last-child {
 }
 
 .window {
-  border-radius: 0px 25px 25px 0px;
   background: rgba(253, 251, 247, 0.80);
   backdrop-filter: blur(12.5px);
 }
@@ -254,6 +257,7 @@ header nav ul li:last-child {
   padding-top: 55px;
   padding-bottom: 50px;
   gap: 31px;
+  border-radius: 0px 25px 25px 0px;
 }
 
 /* info */
@@ -306,9 +310,11 @@ header nav ul li:last-child {
 }
 
 .controls {
+  /* width: 100%; */
   display: flex;
   margin: 0 auto;
   gap: 15px;
+  padding-bottom: 54px;
 }
 
 .control {
@@ -326,4 +332,38 @@ header nav ul li:last-child {
 
 .control__active {
   opacity: 1;
+}
+
+/* discount */
+
+.discount {
+  background-image: url(assets/bg/bg2.png);
+  padding-left: 740px;
+  padding-top: 165px;
+  padding-bottom: 165px;
+}
+
+.window_discount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 90px;
+}
+
+.window_discount form {
+  padding-top: 65px;
+  padding-bottom: 80px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.window_discount input {
+  width: 577px;
+  height: 87px;
+  border-radius: 25px;
+  border: none;
+  background: #FFFFFF;
 }
