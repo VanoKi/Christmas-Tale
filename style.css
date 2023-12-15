@@ -253,7 +253,7 @@ header a:hover {
   flex-direction: row;
   justify-content: space-between;
   /* gap: 40px; */
-  padding: 45px 40px 66px 40px;
+  padding: 45px 0px 66px 0px;
 }
 
 .card{
@@ -399,6 +399,7 @@ header a:hover {
 }
 
 .map_wrap {
+  margin: 0 auto;
   max-width: 1400px;
   max-height: 623px;
 }
