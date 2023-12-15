@@ -3,6 +3,7 @@
   --ct-landing-bg: #FDFBF7;
   --ct-landing-footer-font: #4E6D03;
   --ct-landing-red: #AD2D24;
+  --ct-landing-main: #B74324;
 }
 
 * {
@@ -302,4 +303,27 @@ header nav ul li:last-child {
 
 .wrap_slider img {
   border-radius: 25px;
+}
+
+.controls {
+  display: flex;
+  margin: 0 auto;
+  gap: 15px;
+}
+
+.control {
+  width: 16px;
+  height: 16px;
+  border-radius: 100px;
+  background-color: var(--ct-landing-main);
+  opacity: 0.35;
+  cursor: pointer;
+}
+
+.control:hover {
+  opacity: .5;
+}
+
+.control__active {
+  opacity: 1;
 }
