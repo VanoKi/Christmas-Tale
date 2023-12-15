@@ -137,12 +137,21 @@ html {
   align-items: center;
 }
 
+header {
+  width: 95.22%;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -19.35%, rgba(255, 255, 255, 0.70) 49.95%, rgba(255, 255, 255, 0.00) 131.52%, rgba(255, 255, 255, 0.00) 131.52%);
+  backdrop-filter: blur(2.5px);
+}
+
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: var(--ct-landing-background);
+  color: var(--ct-landing-bg);
   font-family: 'Roboto';
   font-size: 28px;
   font-style: normal;
@@ -155,20 +164,6 @@ html {
   flex-direction: row;
   gap: 104px;
 }
-
-/* header li {
-  display: inline-block;
-} */
-
-/* header nav ul li:nth-child(2) {
-  margin-left: auto;
-}
-
-header nav ul li:last-child {
-  margin-left: 7.4%;
-} */
-
-
 
 /* main */
 
