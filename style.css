@@ -165,6 +165,10 @@ header {
   gap: 104px;
 }
 
+header a:hover {
+  color: var(--ct-landing-red);
+}
+
 /* main */
 
 /* enjoy */
@@ -373,4 +377,16 @@ header {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+.footer a:hover {
+  color: var(--ct-landing-red);
+}
+
+.footer svg:hover{
+  fill: var(--ct-landing-red);
+}
+
+.footer svg:hover path{
+  fill: var(--ct-landing-red);
 }
