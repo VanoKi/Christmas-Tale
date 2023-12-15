@@ -176,9 +176,9 @@ header a:hover {
 .enjoy {
   background-image: url(assets/bg/bg.png);
   background-position: -10%;
-  padding-top: 385px;
-  padding-right: 740px;
-  padding-bottom: 50px;
+  padding-top: 27.5%;
+  padding-right: 52.86%;
+  padding-bottom: 3.57%;
 }
 
 .window {
@@ -318,9 +318,10 @@ header a:hover {
 
 .discount {
   background-image: url(assets/bg/bg2.png);
-  padding-left: 740px;
-  padding-top: 165px;
-  padding-bottom: 165px;
+  /* padding-left: 740px; */
+  padding-left: 52.86%;
+  padding-top: 11.79%;
+  padding-bottom: 11.79%;
 }
 
 .window_discount {
