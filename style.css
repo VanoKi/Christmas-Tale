@@ -386,6 +386,10 @@ header a:hover {
   text-decoration: underline;
 }
 
+.contacts svg:hover path{
+  fill: var(--ct-landing-red);
+}
+
 /* footer */
 
 .footer {
@@ -400,22 +404,3 @@ header a:hover {
   font-weight: 400;
   line-height: normal;
 }
-
-.footer ul {
-  display: flex;
-  flex-direction: row;
-  gap: 40px;
-}
-
-.footer a:hover {
-  color: var(--ct-landing-red);
-}
-
-.footer svg:hover{
-  fill: var(--ct-landing-red);
-}
-
-.footer svg:hover path{
-  fill: var(--ct-landing-red);
-}
-
