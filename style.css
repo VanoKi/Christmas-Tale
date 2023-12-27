@@ -10,7 +10,7 @@
 	padding: 0px;
 	margin: 0px;
 	border: none;
-	/* border: 1px solid salmon; */
+	border: 1px solid salmon;
 }
 
 *,
@@ -102,11 +102,16 @@ legend {
 }
 
 html {
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
   color: var(--ct-landing-text);
   font-family: 'Candara';
   scroll-behavior: smooth;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1440px;
 }
 
 @font-face {
@@ -169,6 +174,16 @@ header a:hover {
   color: var(--ct-landing-red);
 }
 
+.header__about {
+  color: var(--ct-landing-text);
+  /* width: 1440px; */
+  /* margin: 0 auto; */
+  /* position: absolute; */
+  /* z-index: 1; */
+  /* background: linear-gradient(270deg, rgba(255, 255, 255, 0.00) -19.35%, rgba(255, 255, 255, 0.70) 49.95%, rgba(255, 255, 255, 0.00) 131.52%, rgba(255, 255, 255, 0.00) 131.52%); */
+  /* backdrop-filter: blur(2.5px); */
+}
+
 /* main */
 
 /* enjoy */
@@ -179,6 +194,25 @@ header a:hover {
   padding-top: 27.5%;
   padding-right: 52.86%;
   padding-bottom: 3.57%;
+}
+
+.enjoy_about {
+  width: 100%;
+  background-image: url(assets/bg/about_bg.jpg);
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  padding: 480px 182px 19px;
+}
+
+.window__enjoy_about {
+  border-radius: 25px;
+  padding: 40px 45px;
+}
+
+.tagline__about {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .window {
@@ -194,6 +228,7 @@ header a:hover {
   font-weight: 400;
   line-height: 65px; /* 130% */
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .describe {
@@ -254,6 +289,14 @@ header a:hover {
   justify-content: space-between;
   /* gap: 40px; */
   padding: 45px 0px 66px 0px;
+}
+
+.midl_move_left {
+  margin-left: -80px;
+}
+
+.midl_move_left_contacts {
+  margin-left: -66px;
 }
 
 .card{
